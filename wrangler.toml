@@ -1,0 +1,10 @@
+name = "paste"
+account_id = "e04f21c1f23762a8b1787a34e3804856"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+compatibility_date = "2024-11-12"
+workers_dev = false
