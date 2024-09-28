@@ -1,0 +1,1 @@
+const e=globalThis.__sveltekit_t4rna2.env;export{e};

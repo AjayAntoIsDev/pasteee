@@ -1,0 +1,1 @@
+function s(o){const t=Math.floor(o/86400),n=Math.floor(o%(3600*24)/3600),r=Math.floor(o%3600/60);return{days:t,hours:n,minutes:r}}function a({days:o,hours:t,minutes:n}){return(o??0)*3600*24+(t??0)*3600+(n??0)*60}export{a as D,s};
